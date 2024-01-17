@@ -91,6 +91,8 @@ def scrape_books(driver):
 
 def clean_data():
     df = pd.read_csv(RAW_CSV_FILE)
+    
+    df = df.drop_duplicates()
 
     replace_rating = {'One': 1, 'Two': 2, 'Three': 3, 'Four': 4, 'Five': 5}
 
