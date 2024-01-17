@@ -23,13 +23,14 @@ Welcome to the "Books to Scrape" showcase project! This repository is a demonstr
   - Data web scraping function using Selenium to extract data.
   - Use of Pandas DataFrames to convert the data into a .csv.
   - Utilizes Pandas library to convert prices from Euros to USD and ratings/availability columns to number formats.
+  - Removes duplicate rows from the dataset.
 
 ## Key Features
 
 - **Web Scraping:** Demonstrates the extraction of book data from a website.
 - **Data Transformation:** Utilizes Python and Pandas for transforming raw data.
 - **Data Storage:** The transformed data is stored in the `bookdata` directory as a CSV file.
-- **Data Cleaning:** Converts data into a more usable format and stores it in `books_cleaned.csv`.
+- **Data Cleaning:** Converts data into a more usable format and stores it in `books_cleaned.csv`. Duplicates are removed during this process.
 
 ## Use Cases
 
