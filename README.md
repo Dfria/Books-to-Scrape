@@ -13,6 +13,7 @@ Welcome to the "Books to Scrape" showcase project! This repository is a demonstr
   - Selenium
   - Pandas
   - CSV
+  - MySQL Connector Python
 
 ## Project Structure
 
@@ -24,6 +25,7 @@ Welcome to the "Books to Scrape" showcase project! This repository is a demonstr
   - Use of Pandas DataFrames to convert the data into a .csv.
   - Utilizes Pandas library to convert prices from Euros to USD and ratings/availability columns to number formats.
   - Removes duplicate rows from the dataset.
+  - Stores the clean data in a MySQL localhost database named `bookstoscrape`.
 
 ## Key Features
 
