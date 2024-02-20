@@ -1,8 +1,5 @@
 # Books to Scrape Showcase
-
-## Overview
-
-Welcome to the "Books to Scrape" showcase project! This repository is a demonstration of the Extract, Transform, Load (ETL) process using Python, Selenium, Pandas, and CSV.
+This repository is a demonstration of the Extract, Transform, Load (ETL) process using Python, Selenium, Pandas, and SQL database storage.
 
 ## Project Description
 
